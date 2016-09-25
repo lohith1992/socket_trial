@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     char recvBuff[1024];
     struct sockaddr_in serv_addr; 
 
-	printf("Hi my first change github new_branch_1/n");
+	printf("Hi new_branch_1/n");
     if(argc != 2)
     {
         printf("\n Usage: %s <ip of server> \n",argv[0]);
